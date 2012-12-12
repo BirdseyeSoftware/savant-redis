@@ -1,13 +1,9 @@
 # savant-redis
 
-A Clojure library designed to ... well, that part is up to you.
-
-## Usage
-
-FIXME
+A Redis backed implementation of the `Savant` EventStore.
 
 ## License
 
-Copyright © 2012 FIXME
+Copyright © 2012 Birdseye Software Inc.
 
-Distributed under the Eclipse Public License, the same as Clojure.
+Distributed under the MIT license.

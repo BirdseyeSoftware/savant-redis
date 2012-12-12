@@ -58,8 +58,8 @@
       (if (nil? current-rev)
         commits
         (take-while #(not= current-rev
-                               (-> % meta :event-store/parent-rev-hash))
-                        commits))))
+                           (-> % meta :event-store/parent-rev-hash))
+                    commits))))
 
   (get-events-seq [this] (seq (get-events-vec this))) ;...
 
